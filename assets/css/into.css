@@ -63,6 +63,9 @@ header{
     background-color: rgba(255, 255, 255, 1);
 }
 
+.atras{
+    z-index: 4000;
+}
 .title{
     font-weight: 400;
     letter-spacing: 10px;
