@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/into.css">
+    <title>LAHO</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/officel/16/react.png">
+    <!--Google Icons-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Icon-->
+    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/officel/16/code.png" />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background: white;">
+
+    <a style="position: fixed; bottom: 30px; right:30px; height: 70px; width: 70px; z-index: 300;" href="https://wa.link/gt3ktj" >
+        <img src="assets/img/WhatsApp.svg.png" alt="" style="width: 100%;">
+      </a>
+
+
+    <div id="home">
+        <header class="wfull hfull df col header end aic">
+            <h1 class="fc1 ff fl fxl title ">LAHO</h1>
+            <p class="fc1 ff fl fm" style="padding-bottom: 110px;">Software y Audiovisuales</p>
+        </header>
+
+        <section class="df c row wcont pt-100 pb-100 aic">
+            <div class="wcol df col">
+                <h1 class="fc2 ff fl fx title " style="font-weight: 500; letter-spacing: 3px;">LAHO</h1>
+                <p class="fm fc3 ff pt-0 fi">
+                    Gestioón, desarrollo y mantenimiento de proyectos digitales.
+                </p>
+                <p class="fs fc2 ff pt-30 pb-50" style="font-weight: 300;">
+                    LAHO, es un proyecto innovador cuyo enfoque es ofrecer una amplia gama de servicios tecnológicos y
+                    creativos para planear, diseñar, desarrollar y ejecutar proyectos en su mayoría con enfoque digital,
+                    artístico o ambiental. <br><br>
+
+                    Nos especializamos en cuatro áreas principales: Programación, Diseño, Tecnología y Música.
+                </p>
+                <a href="https://wa.link/gt3ktj" target="_blank" class=" tdn bc1 fc1 df jcc aic bradm pt-20 pb-20 ff fs"
+                    style="width: 220px; font-size: 13px;">
+                    ¡Comunícate Ahora!
+                </a>
+            </div>
+
+            <div class="wcol df end">
+                <div class="imagenhome bradm"> </div>
+            </div>
+        </section>
+
+        <div class="servicios wfull pt-80 pb-80" id="servicios">
+            <section class="df row c wcont jsb" style="flex-wrap: wrap;">
+                <a class="itemserv bc3 bradm df tdn" style=" margin-top: 35px;  height: 110px;">
+                    <div class="df col end wfull aic pb-30 fc2 ff fm">
+                        <div class="circle bc1"
+                            style="width: 70px; height: 70px; margin-bottom: 50px; position: absolute;"></div>
+                        <p style="font-weight: 300; font-size: 20px; line-height: 23px;"">SERVICIOS</p>
+                </div>
+            </a>
+            <div onclick=" showService('servicio1');" class="itemserv bc4 bradm df tdn"
+                            style=" height: 280px; cursor: pointer;">
+                        <div class="df  col wfull jsb fc1 ff fm" style="padding: 15px;">
+                            <div class="df row end">
+                                <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                    add_circle
+                                </span>
+                            </div>
+                            <p style="font-weight: 400; font-size: 25px; line-height: 386x;">Programación web <br> y
+                                aplicaciónes mobiles</p>
+                        </div>
+                    </div>
+                    <div onclick="showService('servicio2');" class=" itemserv bc3 bradm df tdn "
+                        style="  height: 280px;">
+                        <div class="df col wfull jsb fc2 ff fm" style="padding: 15px;">
+                            <div class="df row end">
+                                <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                    add_circle
+                                </span>
+                            </div>
+                            <p style="font-weight: 400; font-size: 25px; line-height: 35px;">Proyectos <br>
+                                audiovisuales</p>
+                        </div>
+                    </div>
+                    <div onclick="showService('servicio3');" class=" itemserv bc4 bradm df tdn "
+                        style="  height: 180px;">
+                        <div class="df col wfull jsb fc1 ff fm" style="padding: 15px;">
+                            <div class="df row end">
+                                <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                    add_circle
+                                </span>
+                            </div>
+                            <p style="font-weight: 400; font-size: 25px; line-height: 35px;">Modelado 3d, render y
+                                animación</p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.link/gt3ktj" target="_blank" class=" itemserv bc4 bradm df tdn" style=" margin-top: -120px; height: 410px;">
+                        <div class="df col end wfull  pb-10 fc1 ff fm">
+                            <p style="font-weight: 400; font-size: 30px; padding-left: 16px;">TIENES UNA IDEA?</p>
+                            <p
+                                style="font-weight: 200; font-size: 16px; line-height: 28px; padding-left: 16px; padding-bottom:20px; margin-top: -3px;">
+                                Podemos ayudarte a hacerla realidad</p>
+                            <div class="df row jsb wfull aie pb-10">
+                                <span class="material-symbols-outlined pl-10" style="font-size: 50px;">
+                                    expand_circle_right</span>
+                                <p class="pr-20" style="font-weight: 200; font-size: 16px; line-height: 23px;">
+                                    Escríbenos</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div onclick="showService('servicio4');" class="itemserv bc3 bradm df tdn "
+                        style="  height: 280px; margin-top: 10px;">
+                        <div class="df col wfull jsb fc2 ff fm" style="padding: 15px;">
+                            <div class="df row end">
+                                <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                    add_circle
+                                </span>
+                            </div>
+                            <p style="font-weight: 400; font-size: 25px; line-height: 33px;">Marketing y <br> publicidad
+                            </p>
+                        </div>
+                    </div>
+                    <div onclick="showService('servicio5');" class="itemserv bc3 bradm df tdn "
+                        style=" height: 280px; margin-top: 10px; background-color: #A3AF39;">
+                        <div class="df col wfull jsb fc1 ff fm" style="padding: 15px;">
+                            <div class="df row end">
+                                <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                    add_circle
+                                </span>
+                            </div>
+                            <p style="font-weight: 300; font-size: 25px; line-height: 33px;">Creación y gestion de
+                                contenido </p>
+                        </div>
+                    </div>
+                    <a class="itemserv bc4 bradm df tdn"
+                        style=" margin-top: -90px; height: 380px; background-image: url(assets/img/2.jpg); background-size: cover;">
+                        <div class="df col end wfull aic pb-10 fc1 ff fm">
+                            <p
+                                style="font-weight: 300; font-size: 24px; line-height: 35px; padding-left: 16px; padding-bottom: 10px;">
+                                Emprendimiento, asesoría y apoyo en proyectos y procesos empresariales</p>
+                        </div>
+                    </a>
+            </section>
+        </div>
+
+        <div class="serviciosMobile wfull pb-80">
+            <section class="df col c wcont">
+                <a class="itemservMobile bc3 bradm df tdn" style=" margin-top: 35px;  height: 110px;">
+                    <div class="df col end wfull aic pb-30 fc2 ff fm">
+                        <div class="circle bc1"
+                            style="width: 70px; height: 70px; margin-bottom: 50px; position: absolute;"></div>
+                        <p style="font-weight: 300; font-size: 20px; line-height: 23px;">SERVICIOS</p>
+                    </div>
+                </a>
+                <a href="" class="itemservMobile bc4 bradm df tdn " style=" height: 280px;">
+                    <div class="df  col wfull jsb fc1 ff fm" style="padding: 15px;">
+                        <div class="df wfull end">
+                            <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                add_circle
+                            </span>
+                        </div>
+                        <p style="font-weight: 400; font-size: 33px; line-height: 39px;">Programación web <br> y
+                            aplicaciónes mobiles</p>
+                    </div>
+                </a>
+                <a href="" class=" itemservMobile bc3 bradm df tdn " style="  height: 280px;">
+                    <div class="df col wfull jsb fc2 ff fm" style="padding: 15px;">
+                        <div class="df  end">
+                            <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                add_circle
+                            </span>
+                        </div>
+                        <p style="font-weight: 400; font-size: 33px; line-height: 39px;">Proyectos <br> audiovisuales
+                        </p>
+                    </div>
+                </a>
+                <a href="" class=" itemservMobile bc4 bradm df tdn " style="  height: 280px;">
+                    <div class="df col wfull jsb fc1 ff fm" style="padding: 15px;">
+                        <div class="df  end">
+                            <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                add_circle
+                            </span>
+                        </div>
+                        <p style="font-weight: 400; font-size: 33px; line-height: 39px;">Modelado 3d, render y animación
+                        </p>
+                    </div>
+                </a>
+
+                <a href="" class=" itemservMobile bc4 bradm df tdn" style=" height: 510px;">
+                    <div class="df col end wfull  pb-10 fc1 ff fm">
+                        <p style="font-weight: 400; font-size: 50px; padding-left: 16px; line-height: 50px;">TIENES UNA
+                            IDEA?</p>
+                        <p
+                            style="font-weight: 200; font-size: 16px; line-height: 18px; padding-left: 16px; padding-bottom:50px; margin-top: 18px;">
+                            Podemos ayudarte a hacerla realidad</p>
+                        <div class="df jsb wfull aie pb-80">
+                            <span class="material-symbols-outlined pl-30" style="font-size: 50px;">
+                                expand_circle_right</span>
+                            <p class="pr-20" style="font-weight: 200; font-size: 16px; line-height: 23px;">Escríbenos
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="itemservMobile bc3 bradm df tdn " style="  height: 280px; margin-top: 30px;">
+                    <div class="df col wfull jsb fc2 ff fm" style="padding: 15px;">
+                        <div class="df  end">
+                            <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                add_circle
+                            </span>
+                        </div>
+                        <p style="font-weight: 400; font-size: 35px; line-height: 49px;">Marketing y <br> publicidad
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="itemservMobile bc3 bradm df tdn "
+                    style=" height: 280px; margin-top: 30px; background-color: #A3AF39;">
+                    <div class="df col wfull jsb fc1 ff fm" style="padding: 15px;">
+                        <div class="df  end">
+                            <span class="material-symbols-outlined iconoservicios" style="font-size: 33px;">
+                                add_circle
+                            </span>
+                        </div>
+                        <p style="font-weight: 300; font-size: 35px; line-height: 49px;">Creación y gestión de contenido
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="itemservMobile bc4 bradm df tdn"
+                    style=" height: 480px; background-image: url(assets/img/2.jpg); background-size: cover;">
+                    <div class="df col end wfull aic pb-10 fc1 ff fm">
+                        <p
+                            style="font-weight: 300; font-size: 30px; line-height: 49px; padding-left: 16px; padding-bottom: 10px;">
+                            Emprendimiento, asesoría y apoyo en proyectos y procesos empresariales</p>
+                    </div>
+                </a>
+            </section>
+        </div>
+
+        <section class="df wcont c row pt-100 pb-100 jsb">
+            <div class="wcol col df aic">
+                <div class="tecnologiasimg bradm"></div>
+            </div>
+            <div class="wcol col df">
+                <p class="ff fc2 fm pb-10" style="font-weight: 600;">Tecnólogias</p>
+                <p class="ff fc2 fm pb-10" style="font-weight: 600;">Programación:</p>
+                <p class="ff fc2 fs">Soluciones de programación a medida para proyectos de todos los tamaños. Con manejo
+                    de una variedad de lenguajes y tecnologías, incluyendo JavaScript, Node.js, PHP, Swift (iOS), y
+                    mucho más.</p>
+
+                <p class="ff fc2 fm pb-10 pt-40" style="font-weight: 600;">Diseño:</p>
+                <p class="ff fc2 fs">Transformación de ideas en experiencias visuales impactantes: Servicios de diseño
+                    gráfico, edición fotográfica, desarrollo de UI/UX, edición de video, uso ia para generar contenidos
+                    gráficos, modelado 3D, renderización de imágenes, diseño de planos, illustracion y mucho más.</p>
+
+                <p class="ff fc2 fm pb-10 pt-40" style="font-weight: 600;">Tecnología:</p>
+                <p class="ff fc2 fs">Soluciones tecnológicas avanzadas para potenciar la presencia online de los
+                    proyectos. Ofreciendo servicios de e-commerce, gestión de redes sociales, publicidad en como Tiktok,
+                    YouTube, Instagram y Facebook Ads.</p>
+
+                <p class="ff fc2 fm pb-10 pt-40" style="font-weight: 600;">Música:</p>
+                <p class="ff fc2 fs">Producción musical de alta calidad para proyectos audiovisuales y musicales. Desde
+                    la grabación y mezcla hasta el mastering final, proporcionando un sonido excepcional y profesional.
+                </p>
+            </div>
+        </section>
+
+        <section class="df wfull c row  jsb perfil">
+
+            <div class=" col df infoperfil pt-80 pb-80 pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-40" style="font-weight: 500; line-height: 60px;">Perfíl <br>
+                    empresarial</p>
+                <p class="ff fc2 fs pr-40">LAHO ofrece soluciones integrales a artistas, empresas y emprendedores.
+                    Adoptando un enfoque autodidacta y proactivo para potenciar la libertad creativa y la eficiencia en
+                    la administración de recursos. <br><br>
+
+                    La base del proyecto es el trabajo inteligente, el orden, la disciplina y la creatividad las cuales
+                    son fundamentales para alcanzar el éxito en la ejecución de nuestros objetivos. En LAHO la
+                    diversidad de conocimientos permite desafiar las limitaciones autoimpuestas y explorar nuevas
+                    posibilidades. <br><br>
+
+                    LAHO es un proyecto versátil y completo que abarca servicios de programación, investigación, diseño,
+                    tecnología y música, con el fin de satisfacer las necesidades de nuestros clientes de manera
+                    integral. Con el objetivo de superar cualquier desafío que se presente en el camino y llevar tu idea
+                    al más alto nivel de excelencia y éxito.</p>
+            </div>
+
+            <div class="imagenperfil col df bc1">
+                <div class="perfilimg1 wfull"></div>
+                <div class="perfilimg2 wfull"></div>
+            </div>
+        </section>
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="portafolio.html" class="ff fc1 titleTec tdn pt-60 portafoliotext"
+                    style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="servicio1" class="hide">
+        <div onclick="hideService('servicio1')" class="df fix" style="padding-top: 30px; padding-left: 30px;">
+            <span class="material-symbols-outlined atras fc2" style="font-size: 40px;">
+                arrow_circle_left
+            </span>
+        </div>
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Programación <br> web </p>
+            </div>
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c df jsb row">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">EventList</p>
+                    <p class="ff fc2 fs ">Desarrollo completo de la plataforma</p>
+                    <p class="ff fc2 fs">Plataforma publicada en: <a href="eventlist.com.co" class="tdn fc2"
+                            style="font-weight: 500;">eventlist.com</a></p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Arcaviva</p>
+                    <p class="ff fc2 fs ">Desarrollo completo de la plataforma y de identidad corporativa</p>
+                    <p class="ff fc2 fs">Plataforma publicada en: <a href="arcavivaconfecciones.com" class="tdn fc2"
+                            style="font-weight: 500;">arcavivaconfecciones.com</a></p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">CIAL</p>
+                    <p class="ff fc2 fs ">Desarrollo landing page y de identidad corporativa</p>
+                    <p class="ff fc2 fs">Plataforma publicada en: <a href="cial.com" class="tdn fc2"
+                            style="font-weight: 500;">cial.com</a></p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">GRANT</p>
+                    <p class="ff fc2 fs ">Desarrollo de la plataforma en wordpress e identidad corporativa</p>
+                    <p class="ff fc2 fs pb-60">Plataforma publicada en: <a href="grantayudasuniversitarias.com"
+                            class="tdn fc2" style="font-weight: 500;">grant.com</a></p>
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías web, entre las cuales
+                        se encuentran:</p>
+
+                    <div class="df itemherramientas aic pt-20">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> HTML</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> CSS</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Vanilla JavaScript </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> React</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Vue</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> PHP</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Wordpress</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Inteligencia artificial</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Flutter </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> MySql</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10 pb-40">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Node JS</p>
+                    </div>
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50">Se desarrollan soluciones y se brindan productos para proyectos y
+                        empresas poniendo sus ideas en linea con plataformas dinámicas, eficientes y atractivas que se
+                        adapten a cada necesidad o presupuesto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Aplicaciónes <br> mobiles </p>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c Experiencia">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">EventList</p>
+                    <p class="ff fc2 fs ">Desarrollo completo de la aplicación</p>
+                    <p class="ff fc2 fs">Aplicación publicada en: <a href="eventlist.com.co" class="tdn fc2"
+                            style="font-weight: 500;">PlayStore</a></p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">EventList Afiliados</p>
+                    <p class="ff fc2 fs ">Aplicación para afiliados de la plataforma Eventlist</p>
+                    <p class="ff fc2 fs pb-40">Aplicación publicada en: <a href="arcavivaconfecciones.com"
+                            class="tdn fc2" style="font-weight: 500;">PlayStore</a></p>
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías web, entre las cuales
+                        se encuentran:</p>
+
+                    <div class="df itemherramientas aic pt-20">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Flutter</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Kotlin</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Swift </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Firebase</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> JavaScript</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Java</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> React Native</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10 pb-60">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Inteligencia artificial</p>
+                    </div>
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50">Desarrollamos aplicaciones de manera eficiente y de forma dinámica adaptando el presupuesto a las técnicas y tecnologías de cada proyecto, realizando un estudio de que es o realmente necesario.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="" class="ff fc1 titleTec tdn pt-60 portafoliotext" style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="servicio2" class="hide">
+        <div onclick="hideService('servicio2')" class="df fix" style="padding-top: 30px; padding-left: 30px;">
+            <span class="material-symbols-outlined atras fc2" style="font-size: 40px;">
+                arrow_circle_left
+            </span>
+        </div>
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Proyectos <br> Audiovisuales
+                </p>
+            </div>
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c df jsb row">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Producción Musical</p>
+                    <p class="ff fc2 fs ">Más de 15 años en el campo de la producción</p>
+                    <p class="ff fc2 fs">Proyectos publicados <a href="souncloud.com/lahomusic" class="tdn fc2"
+                            style="font-weight: 500;">LAHOMusic</a></p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Edición de Video</p>
+                    <p class="ff fc2 fs ">Grabación, producción y edición de video</p>
+                    <p class="ff fc2 fs">Para publicidad, eventos y videos para redes</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Fotografía</p>
+                    <p class="ff fc2 fs ">Toma de fotografías, edición y restauración con estándares  </p>
+                    <p class="ff fc2 fs">Profesionales para impresión y plataformas digitales</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Impresión</p>
+                    <p class="ff fc2 fs ">Diseño de todo tipo de impresos: </p>
+                    <p class="ff fc2 fs pb-60">Tarjetas, volantes, pendones, botones, calcomanías y mucho más</p>
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías, entre las cuales se
+                        encuentran:</p>
+
+                    <div class="df itemherramientas aic pt-20">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Logic pro</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Reaper</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Photoshop </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Illustrator</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Canva</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> After Effects</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Sketch</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Corel Draw</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Plugins de mastering y mezcla</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Premiere</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10 pb-40">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Figma</p>
+                    </div>
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50">Somos expertos en desarrollo audiovisual y producción musical. Fusionamos
+                        tecnología y creatividad para crear experiencias únicas y memorables para nuestros clientes.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="portafolio.html" class="ff fc1 titleTec tdn pt-60 portafoliotext"
+                    style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="servicio3" class="hide">
+        <div onclick="hideService('servicio3')" class="df fix" style="padding-top: 30px; padding-left: 30px;">
+            <span class="material-symbols-outlined atras fc2" style="font-size: 40px;">
+                arrow_circle_left
+            </span>
+        </div>
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Modelado 3D <br> Y Render </p>
+            </div>
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c df jsb row">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Modelado 3d</p>
+                    <p class="ff fc2 fs ">Arquitectura, CDI, CAD, Video Juegos, Producto, etc..</p>
+                    <p class="ff fc2 fs">Contamos con años de experiencia en modelado 3d</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Render</p>
+                    <p class="ff fc2 fs ">Estático, bocetos, foto realismo y animación</p>
+                    <p class="ff fc2 fs">Siendo nuestro fuerte el modelado estático</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Animación</p>
+                    <p class="ff fc2 fs ">Simulaciones y animaciones arquitectoónicas </p>
+                    <p class="ff fc2 fs">Junto con amimación publicitaria y stop motion</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Impresión 3d</p>
+                    <p class="ff fc2 fs ">Creamos piezas 3d basadas en medicas CAD</p>
+                    <p class="ff fc2 fs pb-60">Útiles para diferentes objetivos y mercados</p>
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías, entre las cuales se
+                        encuentran:</p>
+
+                    <div class="df itemherramientas aic pt-20">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Blender</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Fusion</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> SkecthUp </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Autocad</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Impresoras de filamento</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Impresoras de Recina</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Vray</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Unreal Engine</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Cycles</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Rhino</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10 pb-40">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Cinema 4d</p>
+                    </div>
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50">Nos especializamos en 3D, render y animación. Transformamos ideas en
+                        realidades tridimensionales vibrantes y cautivadoras, ofreciendo soluciones visuales innovadoras
+                        y de calidad </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="portafolio.html" class="ff fc1 titleTec tdn pt-60 portafoliotext"
+                    style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="servicio4" class="hide">
+        <div onclick="hideService('servicio4')" class="df fix" style="padding-top: 30px; padding-left: 30px;">
+            <span class="material-symbols-outlined atras fc2" style="font-size: 40px;">
+                arrow_circle_left
+            </span>
+        </div>
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Publicidad Digital <br> e
+                    impresa </p>
+            </div>
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c df jsb row">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Publicidad Digital</p>
+                    <p class="ff fc2 fs ">Posicionamos ideas de negocio y perfiles personales</p>
+                    <p class="ff fc2 fs">Empleando diversas estrategias de marketing</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Meta ADS</p>
+                    <p class="ff fc2 fs ">Publicidad en Facebook, Instagram y WhatsApp</p>
+                    <p class="ff fc2 fs">Adoptando a cada presupuesto la campaña</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Marketing</p>
+                    <p class="ff fc2 fs ">Estrategias de posicionamiento de marca</p>
+                    <p class="ff fc2 fs">con estrategias adaptadas a cada necesidad</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Publicidad impresa</p>
+                    <p class="ff fc2 fs ">Diseñamos piezas impresas de publicidad entregable</p>
+                    <p class="ff fc2 fs pb-60">para el proyecto que necesite dichas estrategias</p>
+
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías, entre las cuales se
+                        encuentran:</p>
+
+                    <div class="df itemherramientas aic pt-20">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Facebook ads</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Whatsapp bussines</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Instagram </p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Canva</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Video</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Tiktok</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Impresos</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Adobe</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Youtube</p>
+                    </div>
+                    <div class="df itemherramientas aic pt-10">
+                        <span class="material-symbols-outlined pr-10">deployed_code</span>
+                        <p class="ff fc2 fs "> Entregables</p>
+                    </div>
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50">Impulsamos marcas hacia el éxito mediante estrategias creativas y
+                        efectivas. Nuestro enfoque innovador y orientado a resultados garantiza el crecimiento y la
+                        visibilidad de nuestros clientes en el mercado. </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="portafolio.html" class="ff fc1 titleTec tdn pt-60 portafoliotext"
+                    style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="servicio5" class="hide">
+        <div onclick="hideService('servicio5')" class="df fix" style="padding-top: 30px; padding-left: 30px;">
+            <span class="material-symbols-outlined atras fc2" style="font-size: 40px;">
+                arrow_circle_left
+            </span>
+        </div>
+        <section class="df wfull c row  jsb sectionserivicio">
+
+            <div class=" col df infoperfil pt-30  pl-100 jcc">
+                <p class="ff fc2 titleTec pb-10" style="font-weight: 600;">LAHO</p>
+                <p class="ff fc2 fx pb-20" style="font-weight: 500; line-height: 70px;">Creación y gestión <br> de
+                    contenido </p>
+            </div>
+
+            <div class="imagenserviciointerno col df bc1">
+                <div class="imagenserviciointerno1 wfull"></div>
+            </div>
+        </section>
+
+        <section class="wfull df  pt-80 pb-80">
+            <div class="wcont c df jsb row">
+                <div class="df col experienciaDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Experiencia</h3>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Blog</p>
+                    <p class="ff fc2 fs ">Creamos contenido profesional para blogs</p>
+                    <p class="ff fc2 fs">Respaldado por investigaciones profesionales</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Investigación</p>
+                    <p class="ff fc2 fs ">nuestro equipo tiene experiencia en la realización</p>
+                    <p class="ff fc2 fs">de procesos de investigación profesional</p>
+
+                    <p class="ff fc2 fm pt-40" style="font-weight: 500;">Artículos </p>
+                    <p class="ff fc2 fs ">Artículos para revistas científicas</p>
+                    <p class="ff fc2 fs">cumpliendo con todos los estándares exigidos</p>
+
+                </div>
+
+                <div class="df col herramientasDiv">
+                    <h3 class="ff fm " style="font-weight: 300;">Herramientas:</h3>
+
+                    <p class="ff fc2 fs ">En LAHO manejamos diferentes herramientas y tecnologías, entre las cuales se
+                        encuentran:</p>
+
+                        <div class="df itemherramientas aic pt-20">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> WordPress</p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Bases de datos</p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Documentación </p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Normatividad</p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Planeación de procesos</p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Redacción</p>
+                        </div>
+                        <div class="df itemherramientas aic pt-10">
+                            <span class="material-symbols-outlined pr-10">deployed_code</span>
+                            <p class="ff fc2 fs "> Corrección de estilos</p>
+                        </div>
+    
+                </div>
+
+                <div class="herramientasTiempo df col end">
+                    <h3 class="ff fm " style="font-weight: 300;">En LAHO:</h3>
+                    <p class="ff fc2 fs pb-50"> Gestionamos contenido, corrección de estilo y manejo de investigaciones.
+                        Ofrecemos soluciones precisas y eficientes para optimizar la calidad y relevancia del contenido.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="df wfull c row  jsb bc1">
+
+            <div class="wcol col df pt-80 pb-80 aic jcc">
+                <a href="portafolio.html" class="ff fc1 titleTec tdn pt-60 portafoliotext"
+                    style="font-weight: 600;">PORTAFOLIO</a>
+                <p class="ff fc1 tac fs " style=" line-height: 24px;">
+                    Algunos de nuestros <br> trabajos representativos
+                </p>
+            </div>
+
+            <div class="wcol imgportafolio">
+
+            </div>
+
+        </section>
+
+        <div class="bc1 wfull">
+            <section class="wcont c pt-80 df row jsb pb-50">
+                <div style="width: 15%;" class="logofooter">
+                    <img src="assets/img/logo.svg" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="frasefooter">
+                    <p class="ff fc1 fs pr-40 fi">
+                        “En los senderos menos transitados de la vida, donde el arte de la creación se entrelaza con la
+                        audacia, yo elijo forjar mi propio camino, al margen de las sendas académicas convencionales. Si
+                        bien admiro profundamente la dedicación de quienes se sumergen en el vasto océano del saber
+                        académico, mi esencia anhela la libertad de explorar nuevos horizontes, sin ataduras ni
+                        restricciones. LAHO es un tributo a la independencia, un testimonio de la fuerza del pensamiento
+                        innovador y la voluntad de desafiar lo establecido. Es un llamado a todos aquellos que anhelan
+                        trazar su propio destino, en busca de un mañana que se erige sobre las bases del coraje y la
+                        visión sin límites.”
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="bc1 pt-80 pb-120">
+            <div class="wcont c df row">
+                <div class="df col contactosdiv">
+                    <h3 class="ff fc1 fs" style="font-weight: 400;">CONTACTO</h3>
+                    <a class="ff fc1 fm pt-30">+57 324 2316673</a>
+                    <p class="ff fc1" style="font-size: 10px;">Celular - WhatsApp</p>
+                    <a class="ff fc1 fm pt-20">deepartesdigitales@gmail.com</a>
+                    <p class="ff fc1" style="font-size: 10px;">Correo</p>
+                    <a class="ff fc1 fm pt-20">Tibasosa - Boyacá</a>
+                    <p class="ff fc1" style="font-size: 10px;">Ubicación</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        function showService(serviceId) {
+            var service = document.getElementById(serviceId);
+            if (service) {
+                service.classList.remove('hide');
+                var home = document.getElementById('home');
+                if (home) {
+                    home.classList.add('hide');
+                }
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function hideService(serviceId) {
+            var service = document.getElementById(serviceId);
+            if (service) {
+                service.classList.add('hide');
+                var home = document.getElementById('home');
+                if (home) {
+                    home.classList.remove('hide');
+                    home.classList.add('show');
+                    var servicios = document.getElementById('servicios');
+                    servicios.scrollIntoView();
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

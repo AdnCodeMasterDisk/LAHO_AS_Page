@@ -1,0 +1,342 @@
+
+*{margin:0px;padding:0px;}.wfull{width:100%;}.wcont{width:var(--cont);}.wcol{width:48%;}.wcol3{width:33%;}.hfull{height:100vh;}.df{display:flex;}.hide{display:none;}@media (max-width:900px){.hidemobile{display:none;}}.jsb{justify-content:space-between;}.end{justify-content:flex-end;}.jcc{justify-content:center;}.start{justify-self:start;}.aic{align-items:center;}.aie{align-items:flex-end;}.ais{align-items:start;}.col{flex-direction:column;}.row{flex-direction:row;}.c{margin:0px auto;}.dg{display:grid;}.g2{grid-template-columns:repeat(2,1fr);grid-gap:10px;}.g3{grid-template-columns:repeat(3,1fr);grid-gap:10px;}.g4{grid-template-columns:repeat(4,1fr);grid-gap:10px;}.g8{grid-template-columns:repeat(8,1fr);grid-gap:10px;}.br1{border:1px solid var(--c1);}.brads{border-radius:5px;}.bradm{border-radius:12px;}.bradb{border-radius:20px;}.bn{border:none;}.oln{outline:none;}.circle{border-radius:50%;}.bxsh{box-shadow:0px 0px 12px var(--c2);}.bc1{background-color:var(--c1);}.bc2{background-color:var(--c2);}.bc3{background-color:var(--c3);}.bc4{background-color:var(--c4);}.bct{background-color:transparent;}.white{background-color:white;}.black{background-color:black;}.fc1{color:var(--fc1);}.fc2{color:var(--fc2);}.fc3{color:var(--fc3);}.oa{opacity:0.7;}.ob{opacity:0.5;}.ff{font-family:var(--ff);}.fi{font-style:italic;}.fw1{font-weight:100;}.fw2{font-weight:200;}.fw3{font-weight:300;}.fw4{font-weight:400;}.fw5{font-weight:500;}.fw6{font-weight:600;}.fw7{font-weight:700;}.fw8{font-weight:800;}.fw9{font-weight:900;}.fs{font-size:var(--fs);}.fm{font-size:var(--fm);}.fx{font-size:var(--fx);}.fxl{font-size:var(--fxl);}@media (max-width:800px){.fs{font-size:var(--fs-m);}.fm{font-size:var(--fm-m);}.fx{font-size:var(--fx-m);}.fxl{font-size:var(--fxl-m);}}.tac{text-align:center;}.tdn{text-decoration:none;}.lhg{line-height:var(--lh);}@media (max-width:800px){.lhg{line-height:var(--lh-m);}}.fix{position:fixed;}.z200{z-index:200;}.pt-10{padding-top:10px;}.pt-20{padding-top:20px;}.pt-30{padding-top:30px;}.pt-40{padding-top:40px;}.pt-50{padding-top:50px;}.pt-60{padding-top:60px;}.pt-70{padding-top:70px;}.pt-80{padding-top:80px;}.pt-90{padding-top:90px;}.pt-100{padding-top:100px;}.pt-110{padding-top:110px;}.pt-120{padding-top:120px;}.pt-130{padding-top:130px;}.pt-140{padding-top:140px;}.pt-150{padding-top:150px;}.pb-10{padding-bottom:10px;}.pb-20{padding-bottom:20px;}.pb-30{padding-bottom:30px;}.pb-40{padding-bottom:40px;}.pb-50{padding-bottom:50px;}.pb-60{padding-bottom:60px;}.pb-70{padding-bottom:70px;}.pb-80{padding-bottom:80px;}.pb-90{padding-bottom:90px;}.pb-100{padding-bottom:100px;}.pb-110{padding-bottom:110px;}.pb-120{padding-bottom:120px;}.pb-130{padding-bottom:130px;}.pb-140{padding-bottom:140px;}.pb-150{padding-bottom:150px;}.pl-10{padding-left:10px;}.pl-20{padding-left:20px;}.pl-30{padding-left:30px;}.pl-40{padding-left:40px;}.pl-50{padding-left:50px;}.pl-60{padding-left:60px;}.pl-70{padding-left:70px;}.pl-80{padding-left:80px;}.pl-90{padding-left:90px;}.pl-100{padding-left:100px;}.pl-110{padding-left:110px;}.pl-120{padding-left:120px;}.pl-130{padding-left:130px;}.pl-140{padding-left:140px;}.pl-150{padding-left:150px;}.pr-10{padding-right:10px;}.pr-20{padding-right:20px;}.pr-30{padding-right:30px;}.pr-40{padding-right:40px;}.pr-50{padding-right:50px;}.pr-60{padding-right:60px;}.pr-70{padding-right:70px;}.pr-80{padding-right:80px;}.pr-90{padding-right:90px;}.pr-100{padding-right:100px;}.pr-110{padding-right:110px;}.pr-120{padding-right:120px;}.pr-130{padding-right:130px;}.pr-140{padding-right:140px;}.pr-150{padding-right:150px;}@media (max-width:1450px){.wcont{width:80%;}.wcol{width:50%;}.wcol3{width:33%;}.row{flex-direction:row;}.g3{grid-template-columns:repeat(2,1fr);grid-gap:10px;}}@media (max-width:1000px){.wcont{width:90%;}.wcol{width:100%;margin-bottom:20px;}.wcol3{width:100%;margin-bottom:20px;}.row{flex-direction:column;}.g2{grid-template-columns: repeat(1, 1fr);}.g3{grid-template-columns:repeat(1,1fr);}.g4{grid-template-columns:repeat(1,1fr);}.g8{grid-template-columns:repeat(2,1fr);}.pt-10{padding-top:5px;}.pt-20{padding-top:10px;}.pt-30{padding-top:15px;}.pt-40{padding-top:20px;}.pt-50{padding-top:25px;}.pt-60{padding-top:30px;}.pt-70{padding-top:35px;}.pt-80{padding-top:40px;}.pt-90{padding-top:45px;}.pt-100{padding-top:50px;}.pt-110{padding-top:55px;}.pt-120{padding-top:60px;}.pt-130{padding-top:65px;}.pt-140{padding-top:70px;}.pt-150{padding-top:75px;}.pb-10{padding-bottom:5px;}.pb-20{padding-bottom:10px;}.pb-30{padding-bottom:15px;}.pb-40{padding-bottom:20px;}.pb-50{padding-bottom:25px;}.pb-60{padding-bottom:30px;}.pb-70{padding-bottom:35px;}.pb-80{padding-bottom:40px;}.pb-90{padding-bottom:45px;}.pb-100{padding-bottom:50px;}.pb-110{padding-bottom:55px;}.pb-120{padding-bottom:60px;}.pb-130{padding-bottom:65px;}.pb-140{padding-bottom:70px;}.pb-150{padding-bottom:75px;}.pl-10{padding-left:5px;}.pl-20{padding-left:10px;}.pl-30{padding-left:15px;}.pl-40{padding-left:20px;}.pl-50{padding-left:25px;}.pl-60{padding-left:30px;}.pl-70{padding-left:35px;}.pl-80{padding-left:40px;}.pl-90{padding-left:45px;}.pl-100{padding-left:50px;}.pl-110{padding-left:55px;}.pl-120{padding-left:60px;}.pl-130{padding-left:65px;}.pl-140{padding-left:70px;}.pl-150{padding-left:75px;}.pr-10{padding-right:5px;}.pr-20{padding-right:10px;}.pr-30{padding-right:15px;}.pr-40{padding-right:20px;}.pr-50{padding-right:25px;}.pr-60{padding-right:30px;}.pr-70{padding-right:35px;}.pr-80{padding-right:40px;}.pr-90{padding-right:45px;}.pr-100{padding-right:50px;}.pr-110{padding-right:55px;}.pr-120{padding-right:60px;}.pr-130{padding-right:65px;}.pr-140{padding-right:70px;}.pr-150{padding-right:75px;}}.abs{position: absolute;}.t0{top:0px}.l0{left:0px}.r0{right: 0px;}.b0{bottom: 0px;}@media(min-width: 900px){ .hidedesk {display: none;}}
+
+/* Varibles */
+:root {
+/* colors */
+--c1: #252622;
+--c2: #F5F9FC;
+--c3: #DBDBDB;
+--c4: #547D2D;
+--c5: #EBE3E3;
+
+/* fontcolors */
+--fc1: #ffffff;
+--fc2: #535353;
+--fc3: #5F6F50;
+
+/* font family */
+--ff: "Poppins", sans-serif;
+--ff2: "DM Sans", sans-serif;
+
+/*sizes */
+--cont: 70%;
+
+/*font sizes */
+--fs: 17px;
+--fm: 26px;
+--fx: 60px;
+--fxl: 68px;
+
+/*font sizes */
+--fs-m: 14px;
+--fm-m: 19px;
+--fx-m: 55px;
+--fxl-m: 68px;
+
+/*line-height*/
+--lh: 28px;
+/*line-height mobile*/
+--lh-m: 20px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.material-symbols-rounded {
+font-variation-settings: 'FILL' 0,'wght' 200,'GRAD' 0,'opsz' 40
+}
+
+
+body{
+    background: var(--c2);
+    background-position: center;
+}
+
+header{
+    background-image: url(../img/6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--c1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.title{
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+p{
+    font-weight: 200;
+}
+
+.imagenhome{
+    width: 350px;
+    height: 600px;
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.servicios{
+    background-color: var(--c5);
+    display: flex;
+}
+
+.iconoservicios{
+    
+}
+.itemserv{
+    width: 24%;
+}
+
+@media(max-width: 1000px){ 
+    .servicios{
+        display: none;
+    }
+}
+
+.tecnologiasimg{
+    background-image: url(../img/s.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 750px;
+}
+
+
+
+.titleTec{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.perfilimg1{
+    background-image: url(../img/tl.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 374px;
+    background-repeat: no-repeat;
+}
+
+.perfilimg2{
+    background-image: url(../img/6.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    background-repeat: no-repeat;
+}
+
+.infoperfil{
+    padding-left: 10%;
+    width: 40%;
+}
+
+.imagenperfil{
+    width: 55%;
+}
+
+.imagenserviciointerno{
+    width: 50%;
+}
+
+.imagenserviciointerno1{
+    background-image: url(../img/tl.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+    background-repeat: no-repeat;
+}
+
+
+.perfil{
+    background-color: var(--c5);
+}
+
+.imgportafolio{
+    background-image: url(../img/screen.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+.portafoliotext{
+    font-size: 60px;
+}
+
+.logofooter{
+    display: flex;
+}
+
+.frasefooter{
+    width: 85%;
+}
+
+.itemservMobile{
+    margin-top: 30px;
+}
+
+.serviciosMobile{
+    display: none;
+}
+
+.sectionserivicio{
+    background-color: var(--c5);
+}
+
+.Experiencia{
+    display: flex;
+    flex-direction: row;
+}
+
+.experienciaDiv{
+    width: 43%;
+}
+
+.herramientasDiv{
+    width: 25%;
+}
+
+.herramientasTiempo{
+    width: 25%;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+}
+
+.hide{
+    display: none;
+}
+
+.portafoliodiv{
+    flex-wrap: wrap;
+}
+.itemportafolio {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.itemportafolio:before {
+    content: "";
+    display: block;
+    padding-top: 80%; 
+}
+
+.itemportafolio:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.infoitem{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--c1);
+    border-top: 1px solid #313233 ;
+    opacity: 0;
+    transition: all 0.1s;
+    color: var(--fc1);
+}
+
+.infoitem:hover{
+    bottom: 0px;
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .imagenhome{
+        width: 100%;
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    .tecnologiasimg{
+        width: 100%;
+        height: 350px;
+        margin-top: 30px;
+    }
+
+    .infoperfil{
+        padding-left: 5%;
+        width: 90%;
+        padding-right: 5%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .imagenperfil{
+        width: 100%;
+    }
+
+    .imagenserviciointerno{
+        width: 100%;
+    }
+
+    .imgportafolio{
+        display: none;
+    }
+
+    .logofooter{
+        display: none;
+    }
+
+    .frasefooter{
+        width: 100%;
+        margin-top: -60px;
+    }
+
+    .serviciosMobile{
+        display: flex;
+    }
+
+    .Experiencia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienciaDiv{
+        width: 100%;
+    }
+
+    .herramientasDiv{
+        width: 100%;
+    }
+
+    .herramientasTiempo{
+        width: 100%;
+    }
+
+    .itemportafolio {
+        width: 100%;
+        position: relative;
+        opacity: 1;
+    }
+    
+    .infoitem{       
+        opacity: 1;
+    }
+    
+}
+
